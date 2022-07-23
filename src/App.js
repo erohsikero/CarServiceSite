@@ -1,5 +1,8 @@
 import './App.css';
 import Header from './components/Header/header';
+import Footer from "./components/Footer/footer";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -16,6 +19,7 @@ function App() {
           <Route path="/home" element = { <HomePage/> }/>
           <Route path="/" element = { <HomePage/> }/>
         </Routes>
+        <Footer/>
       </div>
     </Router>
   );
