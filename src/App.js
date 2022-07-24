@@ -6,18 +6,11 @@ import {
   Route
 } from "react-router-dom";
 import HomePage from './pages/homePage';
+import CommingSoon from './pages/commingSoon';
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Header/>
-        <Routes>
-          <Route path="/home" element = { <HomePage/> }/>
-          <Route path="/" element = { <HomePage/> }/>
-        </Routes>
-      </div>
-    </Router>
+    <CommingSoon/>
   );
 }
 
