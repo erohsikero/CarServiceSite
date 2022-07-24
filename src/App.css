@@ -15,7 +15,7 @@ body{
 
 .timer-container{
   background-color: #a20707;
-  background-image: url("./bgConMain.jpg");
+  background-image: url("./underConMain1.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,7 +25,7 @@ body{
 }
 
 .timer {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   /* box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);  */
   display:block;
   flex: column;
