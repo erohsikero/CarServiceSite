@@ -1,9 +1,17 @@
 .carousel-caption{
     right: unset !important;
-    top:30%;
+    justify-content: center;
     text-align: left !important;
+    top: 30%
+}
+
+@media only screen and (max-width: 768px) {
+    .carousel-caption {
+        top: unset;
+    }
 }
 
 .carousel-item img {
-    min-height: 400px;
+    min-height: 300px;
+    overflow: hidden;
 }
