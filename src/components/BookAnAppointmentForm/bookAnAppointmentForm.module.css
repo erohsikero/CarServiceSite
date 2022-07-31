@@ -1,0 +1,21 @@
+.form-container {
+    background: url("../../../public/slides/slide1.jpg");
+    color: white;
+    padding: 4rem;
+}
+
+input,select,textarea {
+    color: white !important;
+    border: unset !important;
+    background: rgba(204, 204, 204, .2) !important;
+}
+
+option {
+    color: white !important;
+    border: unset !important;
+    background: rgb(110, 118, 178);
+}
+
+::placeholder {
+    color: white !important;
+}

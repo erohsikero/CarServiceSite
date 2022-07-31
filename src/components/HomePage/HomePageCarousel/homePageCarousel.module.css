@@ -1,0 +1,9 @@
+.carousel-caption{
+    right: unset !important;
+    top:30%;
+    text-align: left !important;
+}
+
+.carousel-item img {
+    min-height: 400px;
+}
