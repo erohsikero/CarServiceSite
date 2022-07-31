@@ -1,7 +1,6 @@
 import './App.css';
 import Header from './components/Header/header';
 import Footer from './components/Footer/footer';
-import OurService from './components/OurService/OurService';
 import {
   BrowserRouter as Router,
   Routes,
@@ -20,7 +19,6 @@ function App() {
           <Route path="/" element = { <HomePage/> }/>
         </Routes>
       </div>
-      <OurService/>
     </Router>
     <Footer class="mt-auto"/>
     </>
