@@ -1,8 +1,14 @@
-import HomePageCarousel from "../components/HomePageCarousel/homePageCarousel";
+import BookAnAppointmentForm from "../components/BookAnAppointmentForm/bookAnAppointmentForm";
+import AboutUsContainer from "../components/HomePage/AboutUsContainer/aboutUsContainer";
+import HomePageCarousel from "../components/HomePage/HomePageCarousel/homePageCarousel";
 
 const HomePage = () => {
-    return(
-        <HomePageCarousel/>
+    return (
+        <div>
+            <HomePageCarousel />
+            <AboutUsContainer />
+            <BookAnAppointmentForm />
+        </div>
     );
 }
 
