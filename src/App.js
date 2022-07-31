@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header/header';
 import Footer from './components/Footer/footer';
+import OurService from './components/OurService/OurService';
 import {
   BrowserRouter as Router,
   Routes,
@@ -18,8 +19,8 @@ function App() {
           <Route path="/home" element = { <HomePage/> }/>
           <Route path="/" element = { <HomePage/> }/>
         </Routes>
-        <body class="d-flex flex-column min-vh-100">HI</body>
       </div>
+      <OurService/>
     </Router>
     <Footer class="mt-auto"/>
     </>
