@@ -1,16 +1,41 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
+import { MDBIcon } from 'mdb-react-ui-kit';
 
 const Header = () => {
     return (
         <>
+            <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
+                <div className='me-5 d-none d-lg-block'>
+                <span className="border-end"><MDBIcon icon="phone" className="me-3" />Call us: +91-9XXXXXXXX0 &nbsp; &nbsp;</span>
+                <span className="border-start">&nbsp;&nbsp;<MDBIcon icon="home" className="me-3" /> Open Hours: 7:00 am - 9:00 pm (Mon - Sun)</span>
+                </div>
+
+                <div>
+                <a href='' className='me-4 text-reset'>
+                    <MDBIcon fab icon="facebook-f" />
+                </a>
+                <a href='' className='me-4 text-reset'>
+                    <MDBIcon fab icon="twitter" />
+                </a>
+                <a href='' className='me-4 text-reset'>
+                    <MDBIcon fab icon="google" />
+                </a>
+                <a href='' className='me-4 text-reset'>
+                    <MDBIcon fab icon="instagram" />
+                </a>
+                <a href='' className='me-4 text-reset'>
+                    <MDBIcon fab icon="linkedin" />
+                </a>
+                </div>
+            </section>
             <Navbar bg="light" variant="light" expand="lg">
                 <Container>
                     <Navbar.Brand href="/home">
                         <img
                             alt=""
-                            src="/logo.png"
-                            width="100"
-                            height="30"
+                            src="/mediaFiles/logoBlackClear.png"
+                            width="180"
+                            height="75"
                             className="d-inline-block align-top"
                         />
                     </Navbar.Brand>
