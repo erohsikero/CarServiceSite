@@ -10,7 +10,7 @@ const Footer = () =>{
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
                 <img
                     alt=""
-                    src="/mediaFiles/logoBlackClear.png"
+                    src="/logo.png"
                     width="200"
                     height="90"
                     className="d-inline-block"
@@ -19,7 +19,7 @@ const Footer = () =>{
                         
                 Company name
               </h6> */}
-              <p>
+              <p className='text-left'>
                 Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.
               </p>
               <a href='' className='me-4 text-reset'>
@@ -40,7 +40,7 @@ const Footer = () =>{
             </MDBCol>
 
 
-            <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
+            <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4 text-left'>
               <h6 className='text-uppercase fw-bold mb-4'>Our Services</h6>
               <p>
                 <a href='#!' className='text-reset'>     
@@ -69,7 +69,7 @@ const Footer = () =>{
               </p>
             </MDBCol>
 
-            <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
+            <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4 text-left'>
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p>
                 <MDBIcon icon="home" className="me-2" />
