@@ -1,0 +1,17 @@
+.root {
+    background: transparent url(../../../public/blueBackground.jpg) center center/cover no-repeat scroll;
+    padding: 5rem;
+    color: white;
+}
+
+img {
+    margin: 1rem 0 0.5rem 0;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.img-white {
+    filter: brightness(0) invert(1);
+}

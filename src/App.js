@@ -6,15 +6,19 @@ import {
   Route
 } from "react-router-dom";
 import HomePage from './pages/homePage';
+import AboutUsPage from './pages/aboutUsPage';
+import ContactPage from './pages/contactPage';
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <Header/>
+        <Header />
         <Routes>
-          <Route path="/home" element = { <HomePage/> }/>
-          <Route path="/" element = { <HomePage/> }/>
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/about-us" element={<AboutUsPage />} />
+          <Route path="/home" element={<HomePage />} />
+          <Route path="/" element={<HomePage />} />
         </Routes>
       </div>
     </Router>

@@ -9,7 +9,7 @@
 
 .about-us-content {
     text-align: left;
-    font-family: "Now";
+    font-family: 'Now';
 }
 
 .about-us-content h2 {
@@ -38,6 +38,5 @@
 
 .icon {
     float: left;
-    margin-top: 1.5rem;
     margin-right: 1.5rem;
 }

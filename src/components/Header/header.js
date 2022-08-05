@@ -23,7 +23,7 @@ const Header = () => {
                             <Nav.Link href="#bookAnAppointmentForm">Book Appointment</Nav.Link>
                             <Nav.Link href="/gallery">Gallery</Nav.Link>
                             <Nav.Link href="/customer-review">Customer Review</Nav.Link>
-                            <Nav.Link href="/contact-us">Contact Us</Nav.Link>
+                            <Nav.Link href="/contact">Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
