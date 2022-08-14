@@ -8,6 +8,7 @@ import {
 import HomePage from './pages/homePage';
 import AboutUsPage from './pages/aboutUsPage';
 import ContactPage from './pages/contactPage';
+import GalleryPage from './pages/galleryPage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
+          <Route path="/gallery" element={<GalleryPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/about-us" element={<AboutUsPage />} />
           <Route path="/home" element={<HomePage />} />

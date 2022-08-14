@@ -7,43 +7,47 @@ const AchievementBanner = () => {
             <Row className={classes['row']}>
                 <Col>
                     <img
+                        alt="Expert Technicians"
                         className={classes['img-white']}
                         src="icons/expertTechnicians.png"
                         height={"70px"}
                         width={"70px"}
                     />
                     <h2>300+</h2>
-                    <p>Expert Technicians</p>
+                    <p className={classes['content']}>Expert Technicians</p>
                 </Col>
                 <Col>
                     <img
+                        alt="Satisfied Client"
                         className={classes['img-white']}
                         src="icons/satisfiedClient.png"
                         height={"70px"}
                         width={"70px"}
                     />
-                    <h2>300+</h2>
-                    <p>Expert Technicians</p>
+                    <h2>1,026+</h2>
+                    <p className={classes['content']}>Satisfied Client</p>
                 </Col>
                 <Col>
                     <img
+                        alt="Years Experience"
                         className={classes['img-white']}
                         src="icons/yearsExperience.png"
                         height={"70px"}
                         width={"70px"}
                     />
-                    <h2>300+</h2>
-                    <p>Expert Technicians</p>
+                    <h2>25+</h2>
+                    <p className={classes['content']}>Years Experience</p>
                 </Col>
                 <Col>
                     <img
+                        alt="Complete Project"
                         className={classes['img-white']}
                         src="icons/completedProject.png"
                         height={"70px"}
                         width={"100px"}
                     />
-                    <h2>300+</h2>
-                    <p>Expert Technicians</p>
+                    <h2>3200+</h2>
+                    <p className={classes['content']}>Complete Project</p>
                 </Col>
             </Row>
         </Container>

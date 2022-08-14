@@ -14,7 +14,7 @@ const HomePageCarousel = () => {
                 <Carousel.Caption className={classes['carousel-caption']}>
                     <h1>Multibrand Car Solutions</h1>
                     <p>We believe in providing top quality workmanship and are <br/>so confident in our level of service that we back it up <br/>with a good quality</p>
-                    <Button href="/about-us">Get in Touch</Button>
+                    <Button href="/contact">Get in Touch</Button>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item className={classes['carousel-item']}>
@@ -26,7 +26,7 @@ const HomePageCarousel = () => {
                 <Carousel.Caption className={classes['carousel-caption']}>
                     <h1>Car Repair and Servicing</h1>
                     <p>We believe in providing top quality workmanship and are <br/>so confident in our level of service that we back it up <br/>with a good quality</p>
-                    <Button href="/about-us">Get in Touch</Button>
+                    <Button href="/contact">Get in Touch</Button>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

@@ -4,14 +4,11 @@
     color: white;
 }
 
-img {
-    margin: 1rem 0 0.5rem 0;
-}
-
-p {
+.content {
     margin-bottom: 1rem;
 }
 
 .img-white {
+    margin: 1rem 0 0.5rem 0;
     filter: brightness(0) invert(1);
 }

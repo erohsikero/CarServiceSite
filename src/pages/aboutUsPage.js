@@ -1,5 +1,6 @@
 import AchievementBanner from "../components/achievementBanner/achievementBanner";
 import Banner from "../components/Banner/banner"
+import BookAnAppointmentForm from "../components/BookAnAppointmentForm/bookAnAppointmentForm";
 import AboutUsContainer from "../components/HomePage/AboutUsContainer/aboutUsContainer";
 
 const AboutUsPage = () => {
@@ -8,6 +9,7 @@ const AboutUsPage = () => {
             <Banner activePageName={"About Us"} />
             <AboutUsContainer />
             <AchievementBanner />
+            <BookAnAppointmentForm />
         </>
     )
 }

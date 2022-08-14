@@ -1,5 +1,4 @@
 import { Col, Container, Row } from "react-bootstrap";
-import classes from "./contactInformation.css";
 
 const ContactInformation = () => {
     return (
@@ -9,6 +8,7 @@ const ContactInformation = () => {
                     <div class='info-card'>
                         <div class='card-icon'>
                             <img
+                                alt="location"
                                 src="/icons/location.png"
                                 height={"60px"}
                                 width={"60px"}
@@ -24,6 +24,7 @@ const ContactInformation = () => {
                     <div class='info-card'>
                         <div class='card-icon'>
                             <img
+                                alt="call us"
                                 src="/icons/callUs.png"
                                 height={"40px"}
                                 width={"40px"}
@@ -39,6 +40,7 @@ const ContactInformation = () => {
                     <div class='info-card'>
                         <div class='card-icon'>
                             <img
+                                alt="mail"
                                 src="/icons/mail.png"
                                 height={"80px"}
                                 width={"70px"}
