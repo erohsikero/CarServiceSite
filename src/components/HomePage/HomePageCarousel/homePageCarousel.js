@@ -8,7 +8,7 @@ const HomePageCarousel = () => {
             <Carousel.Item className={classes['carousel-item']}>
                 <img
                     className="d-block w-100"
-                    src="/slides/slide1.jpg"
+                    src="./slides/slide1.jpg"
                     alt="Slide One"
                 />
                 <Carousel.Caption className={classes['carousel-caption']}>
@@ -20,7 +20,7 @@ const HomePageCarousel = () => {
             <Carousel.Item className={classes['carousel-item']}>
                 <img
                     className="d-block w-100"
-                    src="slides/slide2.jpg"
+                    src="./slides/slide2.jpg"
                     alt="Slide Two"
                 />
                 <Carousel.Caption className={classes['carousel-caption']}>

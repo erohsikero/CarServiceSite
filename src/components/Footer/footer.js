@@ -10,7 +10,7 @@ const Footer = () =>{
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
                 <img
                     alt=""
-                    src="/logo.png"
+                    src="./logo.png"
                     width="200"
                     height="90"
                     className="d-inline-block"
