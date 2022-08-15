@@ -20,7 +20,7 @@ const Footer = () =>{
                 Company name
               </h6> */}
               <p className='text-left'>
-                Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.
+              CarClinic is Chennai’s fastest growing network of new age car repair workshops offering transparent, hassle-free and predictable car repair experience to car owners.
               </p>
               <a href='' className='me-4 text-reset'>
                     <MDBIcon fab icon="facebook-f" />
@@ -33,9 +33,6 @@ const Footer = () =>{
                 </a>
                 <a href='' className='me-4 text-reset'>
                     <MDBIcon fab icon="instagram" />
-                </a>
-                <a href='' className='me-4 text-reset'>
-                    <MDBIcon fab icon="linkedin" />
                 </a>
             </MDBCol>
 

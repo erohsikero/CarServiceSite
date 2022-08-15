@@ -10,6 +10,7 @@ import HomePage from './pages/homePage';
 import AboutUsPage from './pages/aboutUsPage';
 import ContactPage from './pages/contactPage';
 import GalleryPage from './pages/galleryPage';
+import OurService from './components/OurService/OurService';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/about-us" element={<AboutUsPage />} />
           <Route path="/home" element={<HomePage />} />
+          <Route path="/our-services" element={<OurService />} />
           <Route path="/" element={<HomePage />} />
         </Routes>
       </div>
