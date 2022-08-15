@@ -34,7 +34,7 @@ const Header = () => {
                     <Navbar.Brand href="/home">
                         <img
                             alt="Car Clinic"
-                            src="/logo.jpeg"
+                            src="/logo.png"
                             width="175"
                             height="60"
                             className="d-inline-block align-top"
