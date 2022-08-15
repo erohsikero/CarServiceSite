@@ -1,4 +1,4 @@
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Button, Container, Nav, Navbar } from "react-bootstrap";
 import { MDBIcon } from 'mdb-react-ui-kit';
 
 const Header = () => {
@@ -46,10 +46,10 @@ const Header = () => {
                             <Nav.Link href="/home">Home</Nav.Link>
                             <Nav.Link href="/about-us">About Us</Nav.Link>
                             <Nav.Link href="/our-services">Our Services</Nav.Link>
-                            <Nav.Link href="#bookAnAppointmentForm">Book Appointment</Nav.Link>
                             <Nav.Link href="/gallery">Gallery</Nav.Link>
-                            <Nav.Link href="/customer-review">Customer Review</Nav.Link>
-                            <Nav.Link href="/contact-us">Contact Us</Nav.Link>
+                            {/* <Nav.Link href="/customer-review">Customer Review</Nav.Link> */}
+                            <Nav.Link href="/contact">Contact</Nav.Link>
+                            <Button href="#bookAnAppointmentForm">Book An Appointment</Button>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

@@ -7,7 +7,7 @@ const BookAnAppointmentForm = () => {
     }
 
     return (
-        <section id="#bookAnAppointmentForm">
+        <section id="bookAnAppointmentForm" className="mt-5">
             <Form onSubmit={bookAnAppointment}>
                 <Container className={classes['form-container']} fluid>
                     <Row>
