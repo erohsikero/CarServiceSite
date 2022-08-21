@@ -10,9 +10,9 @@ const Footer = () =>{
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
                 <img
                     alt=""
-                    src="./logo.png"
-                    width="200"
-                    height="90"
+                    src="./logoFull.png"
+                    width="225"
+                    height="110"
                     className="d-inline-block"
                 />
               {/* <h6 className='text-uppercase fw-bold mb-4'>
@@ -70,17 +70,22 @@ const Footer = () =>{
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p>
                 <MDBIcon icon="home" className="me-2" />
-                Chennai, 123, Tamil Nadu
+                2/147, Mount Poonamallee Rd, 
+                Opposite to YAMAHA showroom, 
+                Kattupakkam, Chennai, Tamil Nadu 600056
               </p>
               <p>
                 <MDBIcon icon="envelope" className="me-3" />
-                info@example.com
+                carclinicchennai@gmail.com
               </p>
               <p>
-                <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
+                <MDBIcon icon="phone" className="me-3" /> 9003465200, 9384888448
               </p>
               <p>
-                <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
+                <MDBIcon class="fab fa-whatsapp" className="me-3" /> 9003465200, 9384888448
+              </p>
+              <p>
+                <MDBIcon icon="print" className="me-3" /> 044-43800664
               </p>
             </MDBCol>
           </MDBRow>

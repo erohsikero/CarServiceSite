@@ -6,8 +6,9 @@ const Header = () => {
         <>
             <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
                 <div className='me-5 d-none d-lg-block'>
-                <span className="border-end"><MDBIcon icon="phone" className="me-3" />Call us: +91-9XXXXXXXX0 &nbsp; &nbsp;</span>
-                <span className="border-start">&nbsp;&nbsp;<MDBIcon icon="home" className="me-3" /> Open Hours: 7:00 am - 9:00 pm (Mon - Sun)</span>
+                {/* <span className="border-end"><MDBIcon icon="phone" className="me-3" />Call us: +91-9XXXXXXXX0 &nbsp; &nbsp;</span>
+                <span className="border-start">&nbsp;&nbsp;<MDBIcon icon="home" className="me-3" /> Open Hours: 7:00 am - 9:00 pm (Mon - Sun)</span> */}
+                <span><MDBIcon icon="home" className="me-3" /> Open Hours: 9:30 am - 7:30 pm (Mon - Sat)</span>
                 </div>
 
                 <div>
@@ -35,8 +36,8 @@ const Header = () => {
                         <img
                             alt="Car Clinic"
                             src="./logo.png"
-                            width="175"
-                            height="60"
+                            width="140"
+                            height="70"
                             className="d-inline-block align-top"
                         />
                     </Navbar.Brand>

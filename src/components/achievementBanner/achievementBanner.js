@@ -13,7 +13,7 @@ const AchievementBanner = () => {
                         height={"70px"}
                         width={"70px"}
                     />
-                    <h2>300+</h2>
+                    <h2>25+</h2>
                     <p className={classes['content']}>Expert Technicians</p>
                 </Col>
                 <Col>
@@ -24,7 +24,7 @@ const AchievementBanner = () => {
                         height={"70px"}
                         width={"70px"}
                     />
-                    <h2>1,026+</h2>
+                    <h2>3,732+</h2>
                     <p className={classes['content']}>Satisfied Client</p>
                 </Col>
                 <Col>
@@ -32,10 +32,10 @@ const AchievementBanner = () => {
                         alt="Years Experience"
                         className={classes['img-white']}
                         src="icons/yearsExperience.png"
-                        height={"70px"}
-                        width={"70px"}
+                        height={"85px"}
+                        width={"90px"}
                     />
-                    <h2>25+</h2>
+                    <h2>30+</h2>
                     <p className={classes['content']}>Years Experience</p>
                 </Col>
                 <Col>
@@ -44,10 +44,10 @@ const AchievementBanner = () => {
                         className={classes['img-white']}
                         src="icons/completedProject.png"
                         height={"70px"}
-                        width={"100px"}
+                        width={"150px"}
                     />
-                    <h2>3200+</h2>
-                    <p className={classes['content']}>Complete Project</p>
+                    <h2>18,000+</h2>
+                    <p className={classes['content']}>Complete Repairs/Services</p>
                 </Col>
             </Row>
         </Container>
