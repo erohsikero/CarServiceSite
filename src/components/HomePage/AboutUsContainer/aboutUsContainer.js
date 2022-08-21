@@ -43,7 +43,7 @@ const AboutUsContainer = () => {
                                 <p>We provide Economical car servicing and repairs. Get savings up to 45% on car servicing and repairs.</p>
                             </div>
                         </div>
-                        <Button href="/about-us">More About Us</Button>
+                        <Button href="#/about-us">More About Us</Button>
                     </div>
                 </Col>
             </Row>

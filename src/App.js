@@ -28,15 +28,6 @@ function App() {
         </Routes>
       </div>
     </Router>
-    
-    <div style={{ background: 'transparent url(../../../public/blueBackground.jpg) center center/cover no-repeat scroll' , color:'white'}} className='d-block justify-content-center text-center p-5 border-top'>
-    <img
-          alt="AIAWA MEMBERSHIP"
-          src="./aiawaLogo.png"
-          height={"90px"}
-          width={"190px"}
-      /> Member of All India Automobile Workshops Association (AIAWA)
-    </div>
     <Footer class="mt-auto"/>
     </>
   );
