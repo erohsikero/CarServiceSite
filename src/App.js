@@ -29,7 +29,7 @@ function App() {
       </div>
     </Router>
     
-    <div style={{ background: 'url(http://localhost:3000/static/media/blueBackground.e4af9e1572362d7ac22f.jpg) center center/cover no-repeat scroll' , color:'white'}} className='d-block justify-content-center text-center p-5 border-top'>
+    <div style={{ background: 'transparent url(../../../public/blueBackground.jpg) center center/cover no-repeat scroll' , color:'white'}} className='d-block justify-content-center text-center p-5 border-top'>
     <img
           alt="AIAWA MEMBERSHIP"
           src="./aiawaLogo.png"
