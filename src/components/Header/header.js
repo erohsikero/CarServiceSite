@@ -50,7 +50,7 @@ const Header = () => {
                             <Nav.Link href="/gallery">Gallery</Nav.Link>
                             {/* <Nav.Link href="/customer-review">Customer Review</Nav.Link> */}
                             <Nav.Link href="/contact">Contact</Nav.Link>
-                            <Button href="#bookAnAppointmentForm">Book An Appointment</Button>
+                            {/* <Button href="#bookAnAppointmentForm">Book An Appointment</Button> */}
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
