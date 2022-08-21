@@ -17,7 +17,7 @@ const AboutUsContainer = () => {
                         <div>
                             <div className={classes['icon']}>
                                 <img
-                                    src="icons/highQualityService.png"
+                                    src="./icons/highQualityService.png"
                                     height={'45px'}
                                     width={'45px'}
                                     alt="High quality services"
@@ -32,7 +32,7 @@ const AboutUsContainer = () => {
                         <div>
                             <div className={classes['icon']}>
                                 <img
-                                    src="icons/bestPrice.png"
+                                    src="./icons/bestPrice.png"
                                     height={'45px'}
                                     width={'45px'}
                                     alt="Best price in market"

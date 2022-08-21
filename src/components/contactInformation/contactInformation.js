@@ -9,7 +9,7 @@ const ContactInformation = () => {
                         <div class='card-icon'>
                             <img
                                 alt="location"
-                                src="/icons/location.png"
+                                src="./icons/location.png"
                                 height={"60px"}
                                 width={"60px"}
                             />
@@ -28,7 +28,7 @@ const ContactInformation = () => {
                         <div class='card-icon'>
                             <img
                                 alt="call us"
-                                src="/icons/callUs.png"
+                                src="./icons/callUs.png"
                                 height={"40px"}
                                 width={"40px"}
                             />
@@ -44,7 +44,7 @@ const ContactInformation = () => {
                         <div class='card-icon'>
                             <img
                                 alt="mail"
-                                src="/icons/mail.png"
+                                src="./icons/mail.png"
                                 height={"80px"}
                                 width={"70px"}
                             />

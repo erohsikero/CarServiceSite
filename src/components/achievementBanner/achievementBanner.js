@@ -9,7 +9,7 @@ const AchievementBanner = () => {
                     <img
                         alt="Expert Technicians"
                         className={classes['img-white']}
-                        src="icons/expertTechnicians.png"
+                        src="./icons/expertTechnicians.png"
                         height={"70px"}
                         width={"70px"}
                     />
@@ -20,7 +20,7 @@ const AchievementBanner = () => {
                     <img
                         alt="Satisfied Client"
                         className={classes['img-white']}
-                        src="icons/satisfiedClient.png"
+                        src="./icons/satisfiedClient.png"
                         height={"70px"}
                         width={"70px"}
                     />
@@ -31,7 +31,7 @@ const AchievementBanner = () => {
                     <img
                         alt="Years Experience"
                         className={classes['img-white']}
-                        src="icons/yearsExperience.png"
+                        src="./icons/yearsExperience.png"
                         height={"85px"}
                         width={"90px"}
                     />
@@ -42,7 +42,7 @@ const AchievementBanner = () => {
                     <img
                         alt="Complete Project"
                         className={classes['img-white']}
-                        src="icons/completedProject.png"
+                        src="./icons/completedProject.png"
                         height={"70px"}
                         width={"150px"}
                     />
