@@ -1,0 +1,41 @@
+.container-fluid {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about-img {
+    overflow: hidden;
+}
+
+.about-us-content {
+    text-align: left;
+}
+
+.about-us-content h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+    line-height: 1.4em;
+    margin-top: 0px;
+    font-weight: 600;
+    color: #283a5e;
+}
+
+.about-us-content h4 {
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-weight: 600;
+    color: #283a5e;
+}
+
+.about-us-content p {
+    font-size: 16px;
+    line-height: 1.7em;
+    margin: 0 0 30px;
+    color: #666;
+    overflow: hidden;
+}
+
+.icon {
+    float: left;
+    margin-right: 1.5rem;
+}
