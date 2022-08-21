@@ -50,6 +50,16 @@ const AchievementBanner = () => {
                     <p className={classes['content']}>Complete Repairs/Services</p>
                 </Col>
             </Row>
+            <Row>
+            <div style={{ color:'white'}} className='d-block justify-content-center text-center p-5 border-top'>
+                <img
+                    alt="AIAWA MEMBERSHIP"
+                    src="./aiawaLogo.png"
+                    height={"90px"}
+                    width={"190px"}
+                /> Member of All India Automobile Workshops Association (AIAWA)
+                </div>
+            </Row>
         </Container>
     );
 }
