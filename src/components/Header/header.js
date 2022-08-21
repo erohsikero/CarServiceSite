@@ -24,9 +24,6 @@ const Header = () => {
                 <a href='' className='me-4 text-reset'>
                     <MDBIcon fab icon="instagram" />
                 </a>
-                <a href='' className='me-4 text-reset'>
-                    <MDBIcon fab icon="linkedin" />
-                </a>
                 </div>
             </section>
             
