@@ -2,15 +2,15 @@ import { MDBIcon } from 'mdb-react-ui-kit';
 import React from 'react'
 import './Card.css'
 
-function Card({titleData,iconValue,bodyData}) {
+function Card({titleData,iconValue,bodyData,height,width}) {
   return (
     <div className='card text-center' >
         
         <div className="overflow">
             <img
                 src={iconValue}
-                height={'125px'}
-                width={'125px'}
+                height={height}
+                width={width}
                 alt="High quality services"
             >
             </img>
