@@ -93,9 +93,8 @@ const Footer = () =>{
       </section>
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        © 2021 Copyright:
-        <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
-          test.com
+        <a href='https://www.cerpsoft.in/'>
+        Copyright 2022 Cerpsoft, All Rights Reserved.
         </a>
       </div>
     </MDBFooter>
