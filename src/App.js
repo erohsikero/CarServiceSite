@@ -19,12 +19,12 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route exact path="/gallery" element={<GalleryPage />} />
-          <Route exact path="/contact" element={<ContactPage />} />
-          <Route exact path="/about-us" element={<AboutUsPage />} />
-          <Route exact path="/home" element={<HomePage />} />
-          <Route exact path="/our-services" element={<OurService />} />
-          <Route exact path="/ " element={<HomePage />} />
+          <Route exact path="/gallery/" element={<GalleryPage />} />
+          <Route exact path="/contact/" element={<ContactPage />} />
+          <Route exact path="/about-us/" element={<AboutUsPage />} />
+          <Route exact path="/home/" element={<HomePage />} />
+          <Route exact path="/our-services/" element={<OurService />} />
+          <Route path="/" element={<HomePage />} />
         </Routes>
       </div>
     </Router>
