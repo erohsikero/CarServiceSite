@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CarServiceSite/static/css/main.1d6ab2d6.css",
-    "main.js": "/CarServiceSite/static/js/main.89c421b7.js",
+    "main.css": "/CarServiceSite/static/css/main.c9dab643.css",
+    "main.js": "/CarServiceSite/static/js/main.5019458b.js",
     "static/js/787.67586cb0.chunk.js": "/CarServiceSite/static/js/787.67586cb0.chunk.js",
     "static/media/20210712_104107.mp4": "/CarServiceSite/static/media/20210712_104107.e6766ca0bdadfb15c1f3.mp4",
     "static/media/20220404_174000.mp4": "/CarServiceSite/static/media/20220404_174000.78a20e53487dec052358.mp4",
@@ -33,7 +33,6 @@
     "static/media/20210712_103954.jpg": "/CarServiceSite/static/media/20210712_103954.9330c250ee90e90fe9ab.jpg",
     "static/media/20210712_103951.jpg": "/CarServiceSite/static/media/20210712_103951.2dddba5f5df7db7a42cb.jpg",
     "static/media/20210712_102448.jpg": "/CarServiceSite/static/media/20210712_102448.91324ddc6dae13c32a48.jpg",
-    "static/media/20210405_170845.jpg": "/CarServiceSite/static/media/20210405_170845.b1ec347c6a58b21743e5.jpg",
     "static/media/20211026_151251.jpg": "/CarServiceSite/static/media/20211026_151251.baeb0a30cb56fd5b5d90.jpg",
     "static/media/20210712_104019.jpg": "/CarServiceSite/static/media/20210712_104019.950629ccb707f6b61094.jpg",
     "static/media/20210712_104003.jpg": "/CarServiceSite/static/media/20210712_104003.5811feb6f2b1742e2a41.jpg",
@@ -76,12 +75,12 @@
     "index.html": "/CarServiceSite/index.html",
     "static/media/arrow_left.svg": "/CarServiceSite/static/media/arrow_left.db6e2d88c7c35a775ce4.svg",
     "static/media/arrow_right.svg": "/CarServiceSite/static/media/arrow_right.f7c6ac6d310d3b82f0a0.svg",
-    "main.1d6ab2d6.css.map": "/CarServiceSite/static/css/main.1d6ab2d6.css.map",
-    "main.89c421b7.js.map": "/CarServiceSite/static/js/main.89c421b7.js.map",
+    "main.c9dab643.css.map": "/CarServiceSite/static/css/main.c9dab643.css.map",
+    "main.5019458b.js.map": "/CarServiceSite/static/js/main.5019458b.js.map",
     "787.67586cb0.chunk.js.map": "/CarServiceSite/static/js/787.67586cb0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d6ab2d6.css",
-    "static/js/main.89c421b7.js"
+    "static/css/main.c9dab643.css",
+    "static/js/main.5019458b.js"
   ]
 }
