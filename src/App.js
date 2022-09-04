@@ -10,7 +10,7 @@ import HomePage from './pages/homePage';
 import AboutUsPage from './pages/aboutUsPage';
 import ContactPage from './pages/contactPage';
 import GalleryPage from './pages/galleryPage';
-import OurService from './components/OurService/OurService';
+import OurServiceFull from './components/OurService/OurServiceFull';
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
           <Route exact path="/contact" element={<ContactPage />} />
           <Route exact path="/about-us" element={<AboutUsPage />} />
           <Route exact path="/home" element={<HomePage />} />
-          <Route exact path="/our-services" element={<OurService />} />
+          <Route exact path="/our-services" element={<OurServiceFull />} />
           <Route exact path="/" element={<HomePage />} />
         </Routes>
       </div>

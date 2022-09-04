@@ -7,7 +7,7 @@ const AboutUsContainer = () => {
             <Row>
                 <Col md={6} sm={16} xs={12}>
                     <div className={classes['about-img']}>
-                        <img src="http://apeix.hellloexpert.com/wp-content/uploads/2019/07/about-us-1.png" alt="" />
+                        <img src="" alt="" />
                     </div>
                 </Col>
                 <Col md={6} sm={16} xs={12}>
@@ -43,7 +43,7 @@ const AboutUsContainer = () => {
                                 <p>We provide Economical car servicing and repairs. Get savings up to 45% on car servicing and repairs.</p>
                             </div>
                         </div>
-                        <Button href="#/about-us">More About Us</Button>
+                        
                     </div>
                 </Col>
             </Row>

@@ -1,6 +1,8 @@
 import React from 'react'
 import Card from '../Card/Card';
 import MidHeaders from '../MidHeaders/MidHeaders';
+import { Button } from "react-bootstrap";
+
 
 
 function OurService() {
@@ -18,9 +20,10 @@ function OurService() {
             <div className='col-md-4 col-sm-6 pb-5'>
                 <Card titleData='Batter Replacement' iconValue='./icons/battery.png' bodyData='A dead car battery is a result of failing to turn off electrical accessories in your vehicle, or if its old and needs a replacement. We do that within minutes.' height={'125'} width={'125'}/>
             </div>
-            
+
         </div>
     </div>
+    <Button href="#/our-services">More OurService</Button>
     </div>
   )
 }

@@ -36,3 +36,7 @@
     box-shadow: 0 0.75rem 1.5rem
     rgba(18, 38, 63, 0.03);
 }
+
+.icon-color{
+    filter: invert(50%) sepia(33%) saturate(2593%) hue-rotate(169deg) brightness(101%) contrast(103%);
+}
