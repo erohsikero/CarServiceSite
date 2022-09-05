@@ -9,14 +9,17 @@ const ContactInformation = () => {
                         <div class='card-icon'>
                             <img
                                 alt="location"
-                                src="/icons/location.png"
+                                src="./icons/location.png"
                                 height={"60px"}
                                 width={"60px"}
                             />
                         </div>
                         <div class='card-text'>
                             <h3>Address</h3>
-                            <p>Chennai, 123, Tamil Nadu</p>
+                            <p class="text-left">2/147, Mount Poonamallee Rd, 
+                            Opposite to YAMAHA showroom, 
+                            Kattupakkam, Chennai, Tamil Nadu 600056
+                            </p>
                         </div>
                     </div>
                 </Col>
@@ -25,14 +28,14 @@ const ContactInformation = () => {
                         <div class='card-icon'>
                             <img
                                 alt="call us"
-                                src="/icons/callUs.png"
+                                src="./icons/callUs.png"
                                 height={"40px"}
                                 width={"40px"}
                             />
                         </div>
                         <div class='card-text'>
                             <h3>Call Us Now</h3>
-                            <p>+91-9988776655</p>
+                            <p class='text-left'>Mobile : 9003465200, 9384888448 <br/> Whatsapp: 9003465200, 9384888448 <br/>Land line: 044-43800664</p>
                         </div>
                     </div>
                 </Col>
@@ -41,14 +44,14 @@ const ContactInformation = () => {
                         <div class='card-icon'>
                             <img
                                 alt="mail"
-                                src="/icons/mail.png"
+                                src="./icons/mail.png"
                                 height={"80px"}
                                 width={"70px"}
                             />
                         </div>
                         <div class='card-text'>
                             <h3>Mail Us Today</h3>
-                            <p>youremail@gmail.com</p>
+                            <p>carclinicchennai@gmail.com</p>
                         </div>
                     </div>
                 </Col>
