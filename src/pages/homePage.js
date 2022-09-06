@@ -3,6 +3,7 @@ import BookAnAppointmentForm from "../components/BookAnAppointmentForm/bookAnApp
 import AboutUsContainer from "../components/HomePage/AboutUsContainer/aboutUsContainer";
 import HomePageCarousel from "../components/HomePage/HomePageCarousel/homePageCarousel";
 import OurService from '../components/OurService/OurService';
+import MarqueeLogoRoller from '../components/marqueeLogoRoller/marqueeLogoRoller';
 import { Button } from "react-bootstrap";
 
 
@@ -16,6 +17,7 @@ const HomePage = () => {
             <OurService />
             <AchievementBanner />
             <BookAnAppointmentForm />
+            <MarqueeLogoRoller/>
         </div>
     );
 }

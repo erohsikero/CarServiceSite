@@ -17,7 +17,7 @@ function OurService() {
                 <Card titleData='Gear Box Repair' iconValue='./icons/highQualityService.png' bodyData='When you sense something is off with your gearbox, contact us for a quick check-up.' height={'125'} width={'125'}/>
             </div>
             <div className='col-md-4 col-sm-6 container-fluid d-flex justify-content-center p-5'>
-                <Card titleData='Oil Change' iconValue='./icons/Oil.png' bodyData='Our technicians ensure that the oil in your car is free from dirt & contaminants' height={'100'} width={'190'}/>
+                <Card titleData='Oil Change' iconValue='./icons/oil.png' bodyData='Our technicians ensure that the oil in your car is free from dirt & contaminants' height={'100'} width={'190'}/>
             </div>
             
 
@@ -83,7 +83,7 @@ function OurService() {
                 <Card titleData='Crash Repain' iconValue='./icons/crash.png' bodyData='Get those dents and scratches on your car fixed by us at affordable prices.' height={'125'} width={'230'}/>
             </div>
             <div className='col-md-4 col-sm-6 container-fluid d-flex justify-content-center p-5'>
-                <Card titleData='Fuel System Repair' iconValue='./icons/fuel.png' bodyData='It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.' height={'125'} width={'125'}/>
+                <Card titleData='Fuel System Repair' iconValue='./icons/fuel.png' bodyData='It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. g' height={'125'} width={'125'}/>
             </div>
         </div>
         

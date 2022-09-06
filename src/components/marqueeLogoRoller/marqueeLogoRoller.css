@@ -1,0 +1,27 @@
+.overView {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .title{
+    margin-bottom: 10px;
+  }
+  
+  .title span{
+    font-family: 'Now' !important;
+    font-size: 18px;
+    font-weight: 700 !important;
+    color: #3764EB;
+  }
+
+  .image_wrapper {
+    margin: 10px 0px;
+  }
+  
+  .image_wrapper img {
+    width: 25%;
+  }
+
+.imageRollBg {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
