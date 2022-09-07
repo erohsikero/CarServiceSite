@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CarServiceSite/static/css/main.13226f35.css",
-    "main.js": "/CarServiceSite/static/js/main.f81bc140.js",
+    "main.js": "/CarServiceSite/static/js/main.95d71e06.js",
     "static/js/787.67586cb0.chunk.js": "/CarServiceSite/static/js/787.67586cb0.chunk.js",
     "static/media/20210712_104107.mp4": "/CarServiceSite/static/media/20210712_104107.e6766ca0bdadfb15c1f3.mp4",
     "static/media/20220404_174000.mp4": "/CarServiceSite/static/media/20220404_174000.78a20e53487dec052358.mp4",
@@ -76,11 +76,11 @@
     "static/media/arrow_left.svg": "/CarServiceSite/static/media/arrow_left.db6e2d88c7c35a775ce4.svg",
     "static/media/arrow_right.svg": "/CarServiceSite/static/media/arrow_right.f7c6ac6d310d3b82f0a0.svg",
     "main.13226f35.css.map": "/CarServiceSite/static/css/main.13226f35.css.map",
-    "main.f81bc140.js.map": "/CarServiceSite/static/js/main.f81bc140.js.map",
+    "main.95d71e06.js.map": "/CarServiceSite/static/js/main.95d71e06.js.map",
     "787.67586cb0.chunk.js.map": "/CarServiceSite/static/js/787.67586cb0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.13226f35.css",
-    "static/js/main.f81bc140.js"
+    "static/js/main.95d71e06.js"
   ]
 }
