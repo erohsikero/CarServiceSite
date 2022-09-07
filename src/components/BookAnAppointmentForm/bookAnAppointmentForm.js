@@ -49,7 +49,8 @@ const BookAnAppointmentForm = () => {
         </Toast>
     </>
 
-    const bookAnAppointment = () => {
+    const bookAnAppointment = (event) => {
+        event.preventDefault();
         let formData = {}
         formData['customerName'] = customerNameRef.current.value
         formData['customerPhone'] = customerPhoneRef.current.value
@@ -61,7 +62,7 @@ const BookAnAppointmentForm = () => {
             customerNameRef.current.value = '';
             customerEmailRef.current.value = '';
             customerPhoneRef.current.value = '';
-            customerServiceRef.current.value = '';
+            customerServiceRef.current.value = 'Select a service...';
             customerMessageRef.current.value = '';
 
             if (res.data.result === 'success') {
