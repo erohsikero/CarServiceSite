@@ -6,7 +6,7 @@ const GoogleMap = () => {
             <Row>
                 <Col>
                     <div>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29793.99697352976!2d105.81945407598418!3d21.02269575409132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab9bd9861ca1%3A0xe7887f7b72ca17a9!2zSGFub2ksIEhvw6BuIEtp4bq_bSwgSGFub2ksIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1453961383169" width="100%" height="450" frameborder="0" allowfullscreen="" title="location"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d124431.13676108867!2d80.0288145!3d12.9415553!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52638dab921b9d%3A0xf383e09c189fa9ee!2sCar%20Clinic%20Multibrand%20Bosch%20Express%20Car%20Service!5e0!3m2!1sen!2sin!4v1661095513725!5m2!1sen!2sin" width="100%" height="450" frameborder="0" allowfullscreen="" title="location"></iframe>
                     </div>
                 </Col>
             </Row>
