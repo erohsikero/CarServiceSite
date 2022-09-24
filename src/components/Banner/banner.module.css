@@ -1,6 +1,7 @@
 .root {
-    background: url('../../../public/banner.jpg') center;
-    height: 400px;
+    background: url('../../../public/Gallery/Photos/20210405_170847.jpg');
+    height: 500px;
+    background-size: 100% 150%;
 }
 
 .nav {

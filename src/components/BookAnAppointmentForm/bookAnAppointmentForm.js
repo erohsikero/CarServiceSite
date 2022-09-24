@@ -49,7 +49,8 @@ const BookAnAppointmentForm = () => {
         </Toast>
     </>
 
-    const bookAnAppointment = () => {
+    const bookAnAppointment = (event) => {
+        event.preventDefault();
         let formData = {}
         formData['customerName'] = customerNameRef.current.value
         formData['customerPhone'] = customerPhoneRef.current.value
@@ -61,7 +62,7 @@ const BookAnAppointmentForm = () => {
             customerNameRef.current.value = '';
             customerEmailRef.current.value = '';
             customerPhoneRef.current.value = '';
-            customerServiceRef.current.value = '';
+            customerServiceRef.current.value = 'Select a service...';
             customerMessageRef.current.value = '';
 
             if (res.data.result === 'success') {
@@ -74,11 +75,11 @@ const BookAnAppointmentForm = () => {
     }
 
     return (
-        <section id="bookAnAppointmentForm" className="mt-5">
+        <section id="bookAnAppointmentForm">
             {successToast}
             {failureToast}
             <Form onSubmit={bookAnAppointment}>
-                <Container className={classes['form-container']} fluid>
+                <Container className={`${classes['form-container']} d-block w-100`} fluid>
                     <Row>
                         <Col md={6} sm={8} className="mb-4">
                             <h2>Book an Appointment</h2>
@@ -106,12 +107,18 @@ const BookAnAppointmentForm = () => {
                             <Form.Group controlId="customerService">
                                 <Form.Select ref={customerServiceRef}>
                                     <option>Select a service...</option>
-                                    <option>Engine Repair</option>
-                                    <option>Tier Replacement</option>
-                                    <option>Transmission</option>
-                                    <option>Diagnostic</option>
-                                    <option>Batteries</option>
-                                    <option>Brakes</option>
+                                    <option>A/C Service & Repair</option>
+                                    <option>Body Shop & Crash Repair</option>
+                                    <option>Car Spa & Detailing</option>
+                                    <option>Car Wash</option>
+                                    <option>Electrical Service & Repair</option>
+                                    <option>Engine Diagnostics & Solutions</option>
+                                    <option>Feedback & Follow-up</option>
+                                    <option>General Mechanical & Electrical check-up</option>
+                                    <option>General Service</option>
+                                    <option>Mechanical Service & Repair</option>
+                                    <option>Pickup and Drop</option>
+                                    <option>Tyre & Wheel Service</option>
                                 </Form.Select>
                             </Form.Group>
                         </Col>
