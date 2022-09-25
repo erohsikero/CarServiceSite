@@ -25,7 +25,7 @@ const BookAnAppointmentForm = () => {
             <Toast.Header closeButton={false}>
                 <strong className="me-auto">Success!!!</strong>
             </Toast.Header>
-            <Toast.Body className='text-white'>
+            <Toast.Body className='text-black'>
                 Successfully booked an Appointment...
             </Toast.Body>
         </Toast>
@@ -43,7 +43,7 @@ const BookAnAppointmentForm = () => {
             <Toast.Header closeButton={false}>
                 <strong className="me-auto">Failure!!!</strong>
             </Toast.Header>
-            <Toast.Body className='text-white'>
+            <Toast.Body className='text-black'>
                 Please <Link href="/contact">Contact</Link>...
             </Toast.Body>
         </Toast>
@@ -87,26 +87,26 @@ const BookAnAppointmentForm = () => {
                         </Col>
                     </Row>
                     <Row>
-                        <Col md={3} sm={8} className="mb-4 input-black">
+                        <Col md={3} sm={8} >
                             <Form.Group controlId="customerName">
-                                <Form.Control type="text" placeholder="Your Name" ref={customerNameRef} required={true}/>
+                                <Form.Control type="text" placeholder="Your Name" ref={customerNameRef} required={true} className={`${classes['input-black']} mb-4`}/>
                             </Form.Group>
                         </Col>
-                        <Col md={3} sm={8} className="mb-4 input-black">
+                        <Col md={3} sm={8} >
                             <Form.Group controlId="customerPhone">
-                                <Form.Control type="tel" placeholder="Enter phone" ref={customerPhoneRef} required={true} />
+                                <Form.Control type="tel" placeholder="Enter phone" ref={customerPhoneRef} required={true} className={`${classes['input-black']} mb-4`} />
                             </Form.Group>
                         </Col>
                     </Row>
                     <Row>
-                        <Col md={3} sm={8} className="mb-4 input-black">
+                        <Col md={3} sm={8}  >
                             <Form.Group controlId="customerEmail">
-                                <Form.Control type="email" placeholder="Your Email" ref={customerEmailRef} required={true} />
+                                <Form.Control type="email" placeholder="Your Email" ref={customerEmailRef} required={true} className={`${classes['input-black']} mb-4`}/>
                             </Form.Group>
                         </Col>
                         <Col md={3} sm={8} className="mb-4 option-black">
-                            <Form.Group controlId="customerService">
-                                <Form.Select ref={customerServiceRef} required={true}>
+                            <Form.Group controlId="customerService" >
+                                <Form.Select ref={customerServiceRef} required={true} className={`${classes['input-black']} mb-4`}>
                                     <option>Select a service...</option>
                                     <option>A/C Service & Repair</option>
                                     <option>Body Shop & Crash Repair</option>
@@ -125,9 +125,9 @@ const BookAnAppointmentForm = () => {
                         </Col>
                     </Row>
                     <Row>
-                        <Col md={6} sm={8} className="mb-4 input-black">
+                        <Col md={6} sm={8} >
                             <Form.Group controlId="customerMessage">
-                                <Form.Control as="textarea" rows={3} placeholder="Message" ref={customerMessageRef} required={true}/>
+                                <Form.Control as="textarea" rows={3} placeholder="Message" ref={customerMessageRef} required={true} className={`${classes['input-black']} mb-4`}/>
                             </Form.Group>
                         </Col>
                     </Row>
