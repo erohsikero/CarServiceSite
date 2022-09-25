@@ -11,7 +11,7 @@ function marqueeLogoRoller() {
       </div>
 
       <div className='imageRollBg'>
-        <Marquee direction="right" speed={60} delay={1}>
+        <Marquee direction="right" speed={50} delay={1}>
           <div className="image_wrapper">
             <img src='./carlogo/logo1.png' alt="" />
           </div>
