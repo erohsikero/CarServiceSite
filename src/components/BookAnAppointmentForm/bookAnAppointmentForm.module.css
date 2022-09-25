@@ -1,5 +1,6 @@
 .form-container {
-    background: url("../../../public/slides/slide1.jpg");
+    background: url("../../../public/Gallery/Photos/20210712_102716.jpg");
+    background-size: 100% 100%;
     color: white;
     padding: 4rem;
 }

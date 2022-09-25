@@ -13,7 +13,6 @@ const HomePage = () => {
         <div>
             <HomePageCarousel />
             <AboutUsContainer />
-            <Button href="#/about-us">More About Us</Button>
             <OurService />
             <AchievementBanner />
             <BookAnAppointmentForm />

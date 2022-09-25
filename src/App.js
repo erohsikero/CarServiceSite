@@ -11,6 +11,7 @@ import AboutUsPage from './pages/aboutUsPage';
 import ContactPage from './pages/contactPage';
 import GalleryPage from './pages/galleryPage';
 import OurServiceFull from './components/OurService/OurServiceFull';
+import BookAnAppointmentPage from './pages/bookAnAppointmentPage';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
+          <Route exact path="/bookAnAppointmentForm" element={<BookAnAppointmentPage />} />
           <Route exact path="/gallery" element={<GalleryPage />} />
           <Route exact path="/contact" element={<ContactPage />} />
           <Route exact path="/about-us" element={<AboutUsPage />} />

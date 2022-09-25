@@ -1,9 +1,9 @@
 import { Button, Col, Container, Row } from "react-bootstrap";
 import classes from "./aboutUsContainer.module.css";
 
-const AboutUsContainer = () => {
+const AboutUsContainer = ({showButton = true}) => {
     return (
-        <Container className={classes['container-fluid']}>
+        <Container className={classes['root']}>
             <Row>
                 <Col md={6} sm={16} xs={12}>
                     <div className={classes['about-img']}>
@@ -43,10 +43,15 @@ const AboutUsContainer = () => {
                                 <p>We provide Economical car servicing and repairs. Get savings up to 45% on car servicing and repairs.</p>
                             </div>
                         </div>
-                        
+
                     </div>
                 </Col>
             </Row>
+            {showButton && <Row>
+                <Col>
+                    <Button href="#/about-us">More About Us</Button>
+                </Col>
+            </Row>}
         </Container>
     )
 }

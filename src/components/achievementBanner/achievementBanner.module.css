@@ -1,6 +1,5 @@
 .root {
-    background: transparent url(../../../public/blueBackground.jpg) center center/cover no-repeat scroll;
-    padding: 5rem;
+    background-color: #05386B;
     color: white;
 }
 

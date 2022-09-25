@@ -1,19 +1,16 @@
 .midhead span{
     text-transform: uppercase !important;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
     color: #3764EB;
 }
 
 .midhead h1{
-    font-family: 'Now' !important;
     font-size: 36px;
     font-weight: 700 !important;
     color: #444;
 }
 
 .midhead p{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     color: #666;
 }

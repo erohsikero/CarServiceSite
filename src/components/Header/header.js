@@ -27,7 +27,7 @@ const Header = () => {
                 </div>
             </section>
             
-            <Navbar bg="white" variant="light" expand="lg">
+            <Navbar expand="lg" variant="dark" style={{backgroundColor: "#05386B"}}>
                 <Container>
                     <Navbar.Brand href="#/home">
                         <img
@@ -36,18 +36,19 @@ const Header = () => {
                             width="140"
                             height="70"
                             className="d-inline-block align-top"
+                            style={{filter: 'brightness(2)'}}
                         />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="#/home">Home</Nav.Link>
-                            <Nav.Link href="#/about-us">About Us</Nav.Link>
-                            <Nav.Link href="#/our-services">Our Services</Nav.Link>
-                            <Nav.Link href="#/gallery">Gallery</Nav.Link>
-                            {/* <Nav.Link href="/customer-review">Customer Review</Nav.Link> */}
-                            <Nav.Link href="#/contact">Contact</Nav.Link>
-                            {/* <Button href="#bookAnAppointmentForm">Book An Appointment</Button> */}
+                            <Nav.Link href="#/home" style={{color: 'white'}}>Home</Nav.Link>
+                            <Nav.Link href="#/about-us" style={{color: 'white'}}>About Us</Nav.Link>
+                            <Nav.Link href="#/our-services" style={{color: 'white'}}>Our Services</Nav.Link>
+                            <Nav.Link href="#/gallery" style={{color: 'white'}}>Gallery</Nav.Link>
+                            {/* <Nav.Link href="/customer-review" style={{color: 'white'}}>Customer Review</Nav.Link> */}
+                            <Nav.Link href="#/contact" style={{color: 'white'}}>Contact</Nav.Link>
+                            <Nav.Link href="#/bookAnAppointmentForm" style={{color: 'white'}}>Book An Appointment</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
