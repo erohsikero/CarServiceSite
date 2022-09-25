@@ -131,6 +131,10 @@ const BookAnAppointmentForm = () => {
                     </Row>
                 </Container>
             </Form>
+            <div className="title">
+        <span>OUR GOOGLE REVIEWS</span>
+      </div>
+      <div id="google-reviews"></div>
         </section>
     );
 }

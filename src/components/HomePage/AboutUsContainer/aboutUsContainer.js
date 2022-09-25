@@ -1,4 +1,4 @@
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import classes from "./aboutUsContainer.module.css";
 
 const AboutUsContainer = () => {
