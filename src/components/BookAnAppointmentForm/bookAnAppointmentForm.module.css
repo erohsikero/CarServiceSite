@@ -1,22 +1,23 @@
 .form-container {
-    background: url("../../../public/Gallery/Photos/20210712_102716.jpg");
-    background-size: 100% 100%;
-    color: white;
+    background: url("../../../public/Gallery/Photos/bookbg.png");
+    background-size:contain;
+    color: black;
     padding: 4rem;
+    font-weight: bolder !important;
 }
 
 input,select,textarea {
-    color: white !important;
+    color: black !important;
     border: unset !important;
-    background: rgba(204, 204, 204, .2) !important;
+    background: rgba(22, 11, 11, 0.2) !important;
 }
 
 option {
-    color: white !important;
+    color: black !important;
     border: unset !important;
-    background: rgb(110, 118, 178);
+    background: rgb(0, 0, 0);
 }
 
 ::placeholder {
-    color: white !important;
+    color: rgb(22, 15, 15) !important;
 }
