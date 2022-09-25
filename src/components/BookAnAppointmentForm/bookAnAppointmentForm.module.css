@@ -5,18 +5,18 @@
     padding: 4rem;
 }
 
-input,select,textarea {
+.input-white {
     color: white !important;
     border: unset !important;
     background: rgba(204, 204, 204, .2) !important;
 }
 
-option {
+.option-white {
     color: white !important;
     border: unset !important;
     background: rgb(110, 118, 178);
 }
 
-::placeholder {
+.input-white::placeholder {
     color: white !important;
 }

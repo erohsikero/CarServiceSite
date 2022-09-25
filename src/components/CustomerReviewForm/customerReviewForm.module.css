@@ -1,0 +1,11 @@
+.container {
+    background: url("../../../public/2667824.jpg") no-repeat;
+    background-size: 100% 108%;
+    padding: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        background-size: 200% 108%;
+    }
+}
