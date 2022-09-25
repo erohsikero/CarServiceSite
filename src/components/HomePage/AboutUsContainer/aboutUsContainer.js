@@ -7,7 +7,7 @@ const AboutUsContainer = ({showButton = true}) => {
             <Row>
                 <Col md={6} sm={16} xs={12}>
                     <div className={classes['about-img']}>
-                        <img src="http://apeix.hellloexpert.com/wp-content/uploads/2019/07/about-us-1.png" alt="" />
+                        <img className={classes['about-img']} src="./prof.jpg" alt="" />
                     </div>
                 </Col>
                 <Col md={6} sm={16} xs={12}>
