@@ -134,7 +134,7 @@ const BookAnAppointmentForm = () => {
                         <Col md={6} sm={8}>
                             <Button type="submit">Send Message</Button>
                         </Col>
-                    </Row>w
+                    </Row>
                 </Container>
             </Form>
         </section>
