@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CarServiceSite/static/css/main.d315b9a5.css",
-    "main.js": "/CarServiceSite/static/js/main.1536e776.js",
+    "main.css": "/CarServiceSite/static/css/main.d2e9f0d4.css",
+    "main.js": "/CarServiceSite/static/js/main.35fe7ddb.js",
     "static/js/787.67586cb0.chunk.js": "/CarServiceSite/static/js/787.67586cb0.chunk.js",
     "static/media/20210712_104107.mp4": "/CarServiceSite/static/media/20210712_104107.e6766ca0bdadfb15c1f3.mp4",
     "static/media/20220404_174000.mp4": "/CarServiceSite/static/media/20220404_174000.78a20e53487dec052358.mp4",
@@ -54,6 +54,7 @@
     "static/media/20220616_110922.jpg": "/CarServiceSite/static/media/20220616_110922.6920d6e95034949ecfea.jpg",
     "static/media/20220523_130826.jpg": "/CarServiceSite/static/media/20220523_130826.a1dc7862e794c2256b75.jpg",
     "static/media/20220531_134451.jpg": "/CarServiceSite/static/media/20220531_134451.e21eed0c8f7bb60cc7d5.jpg",
+    "static/media/bookbg.png": "/CarServiceSite/static/media/bookbg.3bbfe93a42aa5fc412db.png",
     "static/media/fa-solid-900.svg": "/CarServiceSite/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
     "static/media/1.jpeg": "/CarServiceSite/static/media/1.3c4f9ed1fbff7c598d82.jpeg",
     "static/media/2022-05-06 1.jpeg": "/CarServiceSite/static/media/2022-05-06 1.8373b6b712c8a3223846.jpeg",
@@ -66,6 +67,7 @@
     "static/media/1507810121923-803335525.jpeg": "/CarServiceSite/static/media/1507810121923-803335525.6b8cc54a45674031d7f1.jpeg",
     "static/media/IMG_20170322_151727.jpeg": "/CarServiceSite/static/media/IMG_20170322_151727.79ed511c5634346c5c60.jpeg",
     "static/media/IMG_20160530_182055.jpeg": "/CarServiceSite/static/media/IMG_20160530_182055.0c34600d6841bab9fed1.jpeg",
+    "static/media/2667824.jpg": "/CarServiceSite/static/media/2667824.27558ac197725915f473.jpg",
     "static/media/2022-05-06 new.jpeg": "/CarServiceSite/static/media/2022-05-06 new.e822c110ee76986b4d57.jpeg",
     "static/media/IMG-20171122-WA0009.jpeg": "/CarServiceSite/static/media/IMG-20171122-WA0009.4727956b347f70293e2b.jpeg",
     "static/media/fa-solid-900.eot": "/CarServiceSite/static/media/fa-solid-900.9bbb245e67a133f6e486.eot",
@@ -86,12 +88,12 @@
     "index.html": "/CarServiceSite/index.html",
     "static/media/arrow_left.svg": "/CarServiceSite/static/media/arrow_left.db6e2d88c7c35a775ce4.svg",
     "static/media/arrow_right.svg": "/CarServiceSite/static/media/arrow_right.f7c6ac6d310d3b82f0a0.svg",
-    "main.d315b9a5.css.map": "/CarServiceSite/static/css/main.d315b9a5.css.map",
-    "main.1536e776.js.map": "/CarServiceSite/static/js/main.1536e776.js.map",
+    "main.d2e9f0d4.css.map": "/CarServiceSite/static/css/main.d2e9f0d4.css.map",
+    "main.35fe7ddb.js.map": "/CarServiceSite/static/js/main.35fe7ddb.js.map",
     "787.67586cb0.chunk.js.map": "/CarServiceSite/static/js/787.67586cb0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d315b9a5.css",
-    "static/js/main.1536e776.js"
+    "static/css/main.d2e9f0d4.css",
+    "static/js/main.35fe7ddb.js"
   ]
 }
