@@ -13,6 +13,7 @@ import GalleryPage from './pages/galleryPage';
 import OurServiceFull from './components/OurService/OurServiceFull';
 import BookAnAppointmentPage from './pages/bookAnAppointmentPage';
 import CustomerReviewPage from './pages/customerReviewPage';
+import ReviewPopUp1 from './components/reviewpopup1/reviewpopup1';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
     <Router>
       <div className="App">
         <Header />
+        <ReviewPopUp1/>
         <Routes>
           <Route exact path="/bookAnAppointmentForm" element={<BookAnAppointmentPage />} />
           <Route exact path="/gallery" element={<GalleryPage />} />
