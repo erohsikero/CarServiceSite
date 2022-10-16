@@ -83,7 +83,7 @@ const BookAnAppointmentForm = () => {
                 <div class="blur"></div>
                     <Row>
                         <Col md={6} sm={8} className="mb-4">
-                            <h2>Book an Appointment</h2>
+                            <h2 className="fw-bold">Book an Appointment</h2>
                         </Col>
                     </Row>
                     <Row>
