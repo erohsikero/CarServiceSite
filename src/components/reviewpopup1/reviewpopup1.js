@@ -11,7 +11,6 @@ const ReviewPopUp1 = () => {
 
     useEffect(() => {
         console.log("Async Fetch Rating Avg data Starts");
-        setTxt(<p> Thanks for *****, customer who are valued our services with 4.5 / 5 Rating </p>);
         (async () => {
             await database.ref("reviewStat")
                 .get()
@@ -22,6 +21,7 @@ const ReviewPopUp1 = () => {
                         setTxt("Thanks for *****, customer who are valued our services with "+snapVal.reviewsAvg+" / 5 Rating");
                     } else {
                         console.log("No data available for reviewStat Value");
+                        setTxt(<p> Thanks for *****, customer who are valued our services with 4.5 / 5 Rating </p>);
                     }
                 })
                 .catch((error) => {
