@@ -66,8 +66,8 @@ const CustomerReviewForm = () => {
         formData['currentMillis'] = Math.round((new Date()).getTime() / 1000);
 
         let reviewPoint = {}
-        reviewPoint['totalCustomerReviews'] = 1;
-        reviewPoint['reviewsAvg'] = 4;
+        reviewPoint['totalCustomerReviews'] = 0;
+        reviewPoint['reviewsAvg'] = 5;
 
         (async () => {
             await database.ref("reviewStat")
