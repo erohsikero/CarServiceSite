@@ -13,6 +13,7 @@ import GalleryPage from './pages/galleryPage';
 import OurServiceFull from './components/OurService/OurServiceFull';
 import BookAnAppointmentPage from './pages/bookAnAppointmentPage';
 import CustomerReviewPage from './pages/customerReviewPage';
+import Posters from './pages/posters';
 import ReviewPopUp1 from './components/reviewpopup1/reviewpopup1';
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
           <Route exact path="/home" element={<HomePage />} />
           <Route exact path="/our-services" element={<OurServiceFull />} />
           <Route exact path="/customer-review" element={<CustomerReviewPage />} />
+          <Route exact path="/offers-posters" element={<Posters/>} />
           <Route exact path="/" element={<HomePage />} />
         </Routes>
       </div>

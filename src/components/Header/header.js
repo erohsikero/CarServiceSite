@@ -58,6 +58,7 @@ const Header = () => {
                 <Nav.Link href="#/customer-review" style={{color: 'white'}}>CustomerReview</Nav.Link>
                 <Nav.Link href="#/contact" style={{color: 'white'}}>Contact</Nav.Link>
                 <Nav.Link href="#/bookAnAppointmentForm" style={{color: 'white'}}>Book-An-Appointment</Nav.Link>
+                <Nav.Link href="#/offers-posters" style={{color: 'white'}}>Offers</Nav.Link>
             </Nav>
             {/* <Form className="d-flex">
                 <Form.Control
