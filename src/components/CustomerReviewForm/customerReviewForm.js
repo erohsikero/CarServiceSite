@@ -108,11 +108,11 @@ const CustomerReviewForm = () => {
 
         database.ref("reviews/"+formData['currentMillis']+"_"+formData['phoneNumber']).set(formData,(error)=>{
 
-            // customerNameRef.current.value = '';
-            // customerPhoneRef.current.value = '';
-            // customerEmailRef.current.value = '';
-            // customerServiceRatingRef.current.value = 'Excellent';
-            // customerMessageRef.current.value = '';
+            customerNameRef.current.value = '';
+            customerPhoneRef.current.value = '';
+            customerEmailRef.current.value = '';
+            customerServiceRatingRef.current.value = 'Excellent';
+            customerMessageRef.current.value = '';
 
             if(error){
                 setShowFailureToast(true);
