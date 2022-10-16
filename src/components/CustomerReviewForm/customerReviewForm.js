@@ -65,24 +65,54 @@ const CustomerReviewForm = () => {
         formData['reviewDate'] = new Date().toDateString();
         formData['currentMillis'] = Math.round((new Date()).getTime() / 1000);
 
-        // database.ref().orderByChild("currentMillis").limitToFirst(5).get().then((snapshot) => {
-        //     if (snapshot.exists()) {
-        //       console.log("GET DATA");
-        //       console.log(snapshot.val());
-        //     } else {
-        //       console.log("No data available");
-        //     }
-        //   }).catch((error) => {
-        //     console.error(error);
-        //   });
+        let reviewPoint = {}
+        reviewPoint['totalCustomerReviews'] = 1;
+        reviewPoint['reviewsAvg'] = 4;
+
+        (async () => {
+            await database.ref("reviewStat")
+                .get()
+                .then((snapshot) => {
+                    if (snapshot.exists()) {
+                        var snapVal = snapshot.val();
+                        console.log("Fetch reviewStat Value : ", snapVal);
+                        reviewPoint['reviewsAvg'] = snapVal.reviewsAvg ;
+                        reviewPoint['totalCustomerReviews'] = snapVal.totalCustomerReviews;
+                    } else {
+                        console.log("No data available for reviewStat Value");
+                        console.log(customerServiceRatingRef.current.value);
+                    }
+                })
+                .catch((error) => {
+                    console.error(error);
+                });
+
+                console.log("Old Review Value : " +reviewPoint['reviewsAvg']);
+                console.log("Old Reviewer Count : " +reviewPoint['totalCustomerReviews']);
+                reviewPoint['totalCustomerReviews'] = reviewPoint['totalCustomerReviews'] + 1;
+                console.log("New Reviewer Count : " +reviewPoint['totalCustomerReviews']);
+                var toRoundOff = reviewPoint['reviewsAvg'] + (( customerServiceRatingRef.current.value - reviewPoint['reviewsAvg'])/reviewPoint['totalCustomerReviews'])
+                console.log("New toRoundOff Value : " +toRoundOff);
+                reviewPoint['reviewsAvg'] = Math.round((toRoundOff + Number.EPSILON) * 100) / 100;
+                console.log("New Review Value : " +reviewPoint['reviewsAvg']);
+
+                database.ref("reviewStat").set(reviewPoint,(error) =>{
+                    if(error){
+                        console.log('Failed to insert data Current Total Rating :', reviewPoint);
+                    }else{
+                        console.log('Success instert data Review Total Value :',reviewPoint )
+                    }
+                }).catch(alert);
+                
+        })();        
 
         database.ref("reviews/"+formData['currentMillis']+"_"+formData['phoneNumber']).set(formData,(error)=>{
 
-            customerNameRef.current.value = '';
-            customerPhoneRef.current.value = '';
-            customerEmailRef.current.value = '';
-            customerServiceRatingRef.current.value = 'Excellent';
-            customerMessageRef.current.value = '';
+            // customerNameRef.current.value = '';
+            // customerPhoneRef.current.value = '';
+            // customerEmailRef.current.value = '';
+            // customerServiceRatingRef.current.value = 'Excellent';
+            // customerMessageRef.current.value = '';
 
             if(error){
                 setShowFailureToast(true);
@@ -134,11 +164,11 @@ const CustomerReviewForm = () => {
                         <Col lg={3} className="mb-4">
                             <Form.Group controlId="customerServiceRating">
                                 <Form.Select ref={customerServiceRatingRef}>
-                                    <option>Excellent</option>
-                                    <option>Poor</option>
-                                    <option>Average</option>
-                                    <option>Good</option>
-                                    <option>Satisfied</option>
+                                    <option value='5' >Excellent</option>
+                                    <option value='4'>Satisfied</option>
+                                    <option value='3'>Good</option>
+                                    <option value='2'>Average</option>
+                                    <option value='1'>Poor</option>
                                 </Form.Select>
                             </Form.Group>
                         </Col>
