@@ -99,8 +99,8 @@ const Footer = () => {
         </MDBContainer>
       </section>
 
-      <div className='text-center p-4' style={{ backgroundColor: 'rgba(255, 255, 255, 0.9)' }}>
-        <a href='https://www.cerpsoft.in/' style={{ color: 'black' }}>
+      <div style={{backgroundColor: 'rgba(255, 255, 255, 0.9)' ,}}>
+        <a className='text-center p-4' style={{ fontSize:14, color:'blue'}} href='https://www.cerpsoft.in/'>
           Copyright 2022 Cerpsoft, All Rights Reserved.
         </a>
       </div>

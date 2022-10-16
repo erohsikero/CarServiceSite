@@ -51,7 +51,7 @@ const AchievementBanner = () => {
                 </Col>
             </Row>
             <hr/>
-            <Row>
+            {/* <Row>
                 <div style={{ color: 'white' }} className='d-block justify-content-center text-center'>
                     <img
                         alt="AIAWA MEMBERSHIP"
@@ -62,7 +62,7 @@ const AchievementBanner = () => {
                     /> 
                     <p>Member of All India Automobile Workshops Association (AIAWA)</p>
                 </div>
-            </Row>
+            </Row> */}
         </Container>
     );
 }

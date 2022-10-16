@@ -79,7 +79,7 @@ const BookAnAppointmentForm = () => {
             {successToast}
             {failureToast}
             <Form onSubmit={bookAnAppointment}>
-                <Container className={`${classes['form-container']} d-block w-100`} style={{ paddingLeft: 620 }} fluid>
+                <Container className={`${classes['form-container']} d-block w-100`} style={{ paddingLeft: '35%' }} fluid>
                 <div class="blur"></div>
                     <Row>
                         <Col md={6} sm={8} className="mb-4">

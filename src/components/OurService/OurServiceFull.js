@@ -17,10 +17,10 @@ function OurService() {
                         <Card titleData='General Service' iconValue='./icons/bestPrice.png' bodyData='Replace engine oil, replace filters, 4x4 break clean, wheel balancing & alignment, electrical check-up, A/C check-up & water wash' height={'125'} width={'125'} />
                     </Col>
                     <Col className='mb-3'>
-                        <Card titleData='Mechanical Service & Repair' iconValue='./icons/highQualityService.png' bodyData='Suspension replace, Break replace, Clutch replace, Timing belt kit replace, Engine over heat, Engine Hear over heat, Transmission O/H and all types of mechanical services' height={'125'} width={'125'} />
+                        <Card titleData='Mechanical Service & Repair' iconValue='./icons/highQualityService.png' bodyData='Suspension replace, Break replace, Clutch replace, Timing belt kit replace, Engine over heat, Transmission O/H and all types of mechanical services' height={'125'} width={'125'} />
                     </Col>
                     <Col className='mb-3'>
-                        <Card titleData='Electrical Service & Repair' iconValue='./icons/battery.png' bodyData='Head light and Indicators replace & repair, Rate bite wiring, Horn replace, Wipers and all kinds of Electrical works.' height={'125'} width={'125'} />
+                        <Card titleData='Electrical Service & Repair' iconValue='./icons/battery.png' bodyData='Head light and Indicators replace & repair, Rat bite wiring, Horn replace, Wipers and all kinds of Electrical works.' height={'125'} width={'125'} />
                     </Col>
                     <Col className='mb-3'>
                         <Card titleData='A/C Service & Repair' iconValue='./icons/ac.png' bodyData='A/C gas leak check-up, A/C gas(134a) refilling & Top-up, A/C Compressor, Hoses Condensor, Colling oil replace and all kinds of A/C work.' height={'125'} width={'125'} />
