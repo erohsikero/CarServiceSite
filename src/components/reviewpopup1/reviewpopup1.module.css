@@ -11,18 +11,17 @@
   
 .carouselmain p{
     font-family: 'Roboto' !important;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700 !important;
     color: #3db800;
     background-color: rgba(255, 255, 255, 0.293);
-    margin: 1px 0px 0px 0px;
+    margin: 1px 0px 15px 0px;
 }
 
 .carouselmain a{
     font-family: 'Roboto' !important;
     font-size: 14px;
-    font-weight: 700 !important;
-    color: #000000;
+    font-weight: 500 !important;
     background-color: rgba(255, 255, 255, 0.293);
     margin: 1px 0px 0px 0px;
 }
