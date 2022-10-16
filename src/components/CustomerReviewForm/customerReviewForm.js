@@ -76,7 +76,7 @@ const CustomerReviewForm = () => {
         //     console.error(error);
         //   });
 
-        database.ref("reviews/"+formData['phoneNumber']+"/"+formData['currentMillis']).set(formData,(error)=>{
+        database.ref("reviews/"+formData['currentMillis']+"_"+formData['phoneNumber']).set(formData,(error)=>{
 
             customerNameRef.current.value = '';
             customerPhoneRef.current.value = '';
