@@ -6,7 +6,7 @@ import Banner from "../components/Banner/banner"
 export default function posters() {
   return (
     <>
-    <Banner activePageName={"Offers"}/>
+    <Banner activePageName={"Offers"} classAtd='rootOff'/>
     <Container fluid >
             <Row style={{ backgroundColor: "rgba(0, 132, 189, 0.8)" , padding:30}}>
                 <Col sm style={{ marginBottom : 'auto'}}>

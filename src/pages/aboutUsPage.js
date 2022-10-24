@@ -6,7 +6,7 @@ import AboutUsContainerFull from "../components/HomePage/AboutUsContainer/aboutU
 const AboutUsPage = () => {
     return (
         <>
-            <Banner activePageName={"About Us"}/>
+            <Banner activePageName={"About Us"} classAtd={'rootABUS'}/>
             <AboutUsContainerFull showButton={false}/>
             <AchievementBanner />
             <BookAnAppointmentForm />

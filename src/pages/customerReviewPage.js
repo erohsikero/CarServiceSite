@@ -6,7 +6,7 @@ const CustomerReviewPage = () => {
     
     return(
         <>
-            <Banner activePageName={'Customer Review'}/>
+            <Banner activePageName={'Customer Review'}  classAtd={'rootCR'}/>
             <CustomerReviewForm/>
             <CustomerReviewViewPage/>
         </>

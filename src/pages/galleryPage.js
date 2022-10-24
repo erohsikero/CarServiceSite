@@ -6,7 +6,7 @@ import VideoGallery from "../components/gallery/videoGallery";
 const GalleryPage = () => {
     return (
         <>
-            <Banner activePageName='Gallery' />
+            <Banner activePageName='Gallery' classAtd='rootGal' />
             <ImageGallery />
             <VideoGallery />
             <BookAnAppointmentForm />

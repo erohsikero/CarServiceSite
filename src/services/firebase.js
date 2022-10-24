@@ -11,7 +11,7 @@ const firebaseConfig = {
 };
 
 const firebaseDbConfig = {
-  databaseURL : "https://carclinicdb-default-rtdb.firebaseio.com/"
+  databaseURL : "https://carclinicsite-default-rtdb.firebaseio.com/"
 }
 
 firebase.initializeApp(firebaseDbConfig);

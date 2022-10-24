@@ -52,12 +52,12 @@ const Header = () => {
                 navbarScroll
             >
                 <Nav.Link href="#/home" style={{color: 'white'}}>Home</Nav.Link>
-                <Nav.Link href="#/about-us" style={{color: 'white'}}>AboutUs</Nav.Link>
-                <Nav.Link href="#/our-services" style={{color: 'white'}}>OurServices</Nav.Link>
+                <Nav.Link href="#/about-us" style={{color: 'white'}}>About_Us</Nav.Link>
+                <Nav.Link href="#/our-services" style={{color: 'white'}}>Our_Services</Nav.Link>
                 <Nav.Link href="#/gallery" style={{color: 'white'}}>Gallery</Nav.Link>
-                <Nav.Link href="#/customer-review" style={{color: 'white'}}>CustomerReview</Nav.Link>
+                <Nav.Link href="#/customer-review" style={{color: 'white'}}>Customer_Review</Nav.Link>
                 <Nav.Link href="#/contact" style={{color: 'white'}}>Contact</Nav.Link>
-                <Nav.Link href="#/bookAnAppointmentForm" style={{color: 'white'}}>Book-An-Appointment</Nav.Link>
+                <Nav.Link href="#/bookAnAppointmentForm" style={{color: 'white'}}>Book_An_Appointment</Nav.Link>
                 <Nav.Link href="#/offers-posters" style={{color: 'white'}}>Offers</Nav.Link>
             </Nav>
             {/* <Form className="d-flex">

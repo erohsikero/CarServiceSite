@@ -6,7 +6,7 @@ import Banner from "../components/Banner/banner"
 const BookAnAppointmentPage = () => {
     return (
         <div className='border-top border-bottom'>
-            <Banner activePageName={"Book An Appointment"}/>
+            <Banner activePageName={"Book An Appointment"} classAtd='rootBAA'/>
             <BookAnAppointmentForm />
         </div>
     )

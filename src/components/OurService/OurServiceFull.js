@@ -8,7 +8,7 @@ import Banner from "../../components/Banner/banner";
 function OurService() {
     return (
         <>
-        <Banner activePageName={"Our Service"}/>
+        <Banner activePageName={"Our Service"} classAtd={'rootOS'}/>
         <div style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
             <MidHeaders head1='Our Services' head2='What We Offer for You' content1='CarClinic is Chennai’s fastest growing network of new age car repair workshops offering transparent, hassle-free and predictable car repair experience to car owners.' content2='We provides a wide range of services to the customers regarding car maintenance and repair services as listed below' />
             <Container fluid>

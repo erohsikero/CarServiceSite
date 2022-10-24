@@ -6,7 +6,7 @@ import GoogleMap from "../components/googleMap/googleMap";
 const ContactPage = () => {
     return (
         <>
-            <Banner activePageName={'Contact'} />
+            <Banner activePageName={'Contact'} classAtd='rootCont'/>
             <ContactInformation/>
             <GoogleMap/>
             <BookAnAppointmentForm/>

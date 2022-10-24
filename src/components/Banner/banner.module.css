@@ -1,9 +1,51 @@
-.root {
-    background: url('../../../public/Gallery/Photos/20210405_170847.jpg');
+.rootCR {
+    background: url('../../../public/Gallery/bg/1.png');
     height: 350px;
     background-size: 100% 300%;
     padding-top: 6rem;
+}
 
+.rootABUS {
+    background: url('../../../public/Gallery/bg/2.png');
+    height: 350px;
+    background-size: 100% 300%;
+    padding-top: 6rem;
+}
+
+.rootOS {
+    background: url('../../../public/Gallery/bg/3.png');
+    height: 350px;
+    background-size: 100% 300%;
+    padding-top: 6rem;
+}
+
+.rootGal {
+    background: url('../../../public/Gallery/bg/4.png');
+    height: 350px;
+    background-size: 100% 300%;
+    padding-top: 6rem;
+}
+
+
+.rootCont {
+    background: url('../../../public/Gallery/bg/5.png');
+    height: 350px;
+    background-size: 100% 300%;
+    padding-top: 6rem;
+}
+
+.rootBAA {
+    background: url('../../../public/Gallery/bg/6.png');
+    height: 350px;
+    background-size: 100% 300%;
+    padding-top: 6rem;
+}
+
+.rootOff {
+    background: url('../../../public/Gallery/bg/7.png');
+    height: 350px;
+    background-size: 100% 300%;
+    padding-top: 6rem;
 }
 
 
