@@ -75,39 +75,38 @@ const BookAnAppointmentForm = () => {
     }
 
     return (
-        <section id="bookAnAppointmentForm">
+        <section id="bookAnAppointmentForm" className={`${classes['form-background']}`} >
             {successToast}
             {failureToast}
             <Form onSubmit={bookAnAppointment}>
-                <Container className={`${classes['form-container']} d-block w-100`} style={{ paddingLeft: '35%' }} fluid>
-                <div class="blur"></div>
-                    <Row>
+                <Container className={`${classes['form-container']} d-block w-50 justify-content-center`} fluid>
+                    <Row className="justify-content-center">
                         <Col md={6} sm={8} className="mb-4">
                             <h2 className="fw-bold">Book an Appointment</h2>
                         </Col>
                     </Row>
-                    <Row>
-                        <Col md={3} sm={8} >
+                    <Row className="justify-content-center">
+                        <Col md={5} sm={8} >
                             <Form.Group controlId="customerName">
-                                <Form.Control type="text" placeholder="Your Name" ref={customerNameRef} required={true} className={`${classes['input-black']} mb-4`}/>
+                                <Form.Control type="text" placeholder="*Your Name" ref={customerNameRef} required={true} className={`${classes['input-black']} mb-4`}/>
                             </Form.Group>
                         </Col>
-                        <Col md={3} sm={8} >
+                        <Col md={5} sm={8} >
                             <Form.Group controlId="customerPhone">
-                                <Form.Control type="tel" placeholder="Enter phone" ref={customerPhoneRef} required={true} className={`${classes['input-black']} mb-4`} />
+                                <Form.Control type="tel" placeholder="*Enter phone" ref={customerPhoneRef} required={true} className={`${classes['input-black']} mb-4`} />
                             </Form.Group>
                         </Col>
                     </Row>
-                    <Row>
-                        <Col md={3} sm={8}  >
+                    <Row className="justify-content-center">
+                        <Col md={5} sm={8}  >
                             <Form.Group controlId="customerEmail">
-                                <Form.Control type="email" placeholder="Your Email" ref={customerEmailRef} required={true} className={`${classes['input-black']} mb-4`}/>
+                                <Form.Control type="email" placeholder="Your Email" ref={customerEmailRef} className={`${classes['input-black']} mb-4`}/>
                             </Form.Group>
                         </Col>
-                        <Col md={3} sm={8} className="mb-4 option-black">
+                        <Col md={5} sm={8} className="mb-4 option-black">
                             <Form.Group controlId="customerService" >
                                 <Form.Select ref={customerServiceRef} required={true} className={`${classes['input-black']} mb-4`}>
-                                    <option>Select a service...</option>
+                                    <option>*Select a service...</option>
                                     <option>A/C Service & Repair</option>
                                     <option>Body Shop & Crash Repair</option>
                                     <option>Car Spa & Detailing</option>
@@ -124,14 +123,14 @@ const BookAnAppointmentForm = () => {
                             </Form.Group>
                         </Col>
                     </Row>
-                    <Row>
+                    <Row className="justify-content-center">
                         <Col md={6} sm={8} >
                             <Form.Group controlId="customerMessage">
-                                <Form.Control as="textarea" rows={3} placeholder="Message" ref={customerMessageRef} required={true} className={`${classes['input-black']} mb-4`}/>
+                                <Form.Control as="textarea" rows={3} placeholder="Message" ref={customerMessageRef} className={`${classes['input-black']} mb-4`}/>
                             </Form.Group>
                         </Col>
                     </Row>
-                    <Row>
+                    <Row className="justify-content-center">
                         <Col md={6} sm={8}>
                             <Button type="submit">Send Message</Button>
                         </Col>

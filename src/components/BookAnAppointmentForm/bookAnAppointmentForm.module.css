@@ -1,8 +1,9 @@
 .form-container {
-    background: url("../../../public/Gallery/Photos/bookbg.png");
-    background-size:contain;
+    background: rgba(255, 255, 255, 0.9);
+    background-size: contain;
     color: black;
-    padding: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     font-weight: bolder !important;
 }
 
@@ -20,4 +21,9 @@
 
 .input-black::placeholder {
     color: black !important;
+}
+
+.form-background{
+    background: url("../../../public/Gallery/Photos/2022-05-06.jpeg");
+    background-size:contain;
 }
