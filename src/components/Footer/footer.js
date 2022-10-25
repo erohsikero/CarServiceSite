@@ -32,7 +32,7 @@ const Footer = () => {
               </a>
             </MDBCol>
             <MDBCol className='mx-auto mb-4 text-left'>
-              <h6 className='text-uppercase fw-bold mb-4'>Our Services</h6>
+              <h6 className='text-uppercase fw-bold mb-4 text-white'>Our Services</h6>
               <ul>
                 <li>
                   <a href='#/our-services' className='text-reset'>
@@ -74,7 +74,7 @@ const Footer = () => {
               </ul>
             </MDBCol>
             <MDBCol className='mx-auto mb-md-0 mb-4 text-left'>
-              <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
+              <h6 className='text-uppercase fw-bold mb-4 text-white'>Contact</h6>
               <p>
                 <MDBIcon icon="home" className="me-2" />
                 2/147, Mount Poonamallee Rd,

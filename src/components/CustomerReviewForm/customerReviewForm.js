@@ -148,14 +148,14 @@ const CustomerReviewForm = () => {
                     <Row>
                         <Col lg={4} className="mb-4">
                             <Form.Group controlId="customerPhone">
-                                <Form.Control type="tel" placeholder="Enter phone" ref={customerPhoneRef} required={true} pattern="[+0-9]{0,4}[0-9]{3}[0-9]{3}[0-9]{4}" />
+                                <Form.Control type="tel" placeholder="Enter phone" ref={customerPhoneRef} pattern="[+0-9]{0,4}[0-9]{3}[0-9]{3}[0-9]{4}" />
                             </Form.Group>
                         </Col>
                     </Row>
                     <Row>
                         <Col lg={4} className="mb-4">
                             <Form.Group controlId="customerEmail">
-                                <Form.Control type="email" placeholder="Your Email" ref={customerEmailRef} required={true} />
+                                <Form.Control type="email" placeholder="Your Email" ref={customerEmailRef} />
                             </Form.Group>
                         </Col>
                     </Row>
@@ -176,7 +176,7 @@ const CustomerReviewForm = () => {
                     <Row>
                         <Col lg={4} className="mb-4">
                             <Form.Group controlId="customerMessage">
-                                <Form.Control as="textarea" rows={3} placeholder="Review comments" ref={customerMessageRef} required={true} />
+                                <Form.Control as="textarea" rows={3} placeholder="Review comments" ref={customerMessageRef} />
                             </Form.Group>
                         </Col>
                     </Row>

@@ -8,7 +8,7 @@ export default function review({name , rating ,message}) {
           bg='primary'
           key='Primary'
           text='white'
-          style={{ width: '18rem' }}
+          style={{ "margin":"1%" }}
           className="mb-2 text-left"
         >
           <Card.Header className='font-weight-bold'> Customer Name : {name} </Card.Header>

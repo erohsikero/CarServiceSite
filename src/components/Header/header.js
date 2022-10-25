@@ -48,7 +48,7 @@ const Header = () => {
             
             <Nav
                 className="me-auto my-2 my-lg-0"
-                style={{ maxHeight: '100px' }}
+                style={{ maxHeight: '100px', fontSize:18 , fontWeight:"bold" }}
                 navbarScroll
             >
                 <Nav.Link href="#/home" style={{color: 'white'}}>Home</Nav.Link>
