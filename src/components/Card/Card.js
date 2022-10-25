@@ -4,8 +4,8 @@ import './Card.css'
 
 function Card({ titleData, iconValue, bodyData, height, width }) {
     return (
-        <div className='card text-center ' >
-            <div className="overflow ">
+        <div className='card text-center' style={{mariginBottom:1}} >
+            <div className="overflow">
                 <img
                     src={iconValue}
                     height={height}

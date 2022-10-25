@@ -20,13 +20,13 @@ const ContactInformation = () => {
     return (
         <Container className="mt-5">
             <Row>
-                <Col>
+                <Col style={{ display:'flex' }}>
                     <Card titleData={'Address'} bodyData={'2/147, Mount Poonamallee Rd, Opposite to YAMAHA showroom, Kattupakkam, Chennai, Tamil Nadu 600056'} iconValue={'./icons/location.png'} height={'60px'} width={'60px'}></Card>
                 </Col>
-                <Col>
+                <Col style={{ display:'flex' }}>
                     <Card titleData={'Call Us Now'} bodyData={contact} iconValue={'./icons/callus.png'} height={'50px'} width={'50px'}></Card>
                 </Col>
-                <Col>
+                <Col style={{ display:'flex' }}>
                     <Card titleData={'Mail Us Today'} bodyData={mail} iconValue={'./icons/mail.png'} height={'60px'} width={'60px'}></Card>
                 </Col>
             </Row>
