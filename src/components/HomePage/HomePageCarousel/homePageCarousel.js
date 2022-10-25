@@ -19,7 +19,7 @@ const HomePageCarousel = () => {
                     alt="Slide One"
                 />
                 <Carousel.Caption className={classes['carousel-caption']}>
-                    <h1>Multibrand Express Car Service</h1>
+                    <h1 className='text-white'>Multibrand Express Car Service</h1>
                     <p>We believe in providing top quality workmanship and are <br/>so confident in our level of service that we back it up <br/>with a good quality</p>
                     <Button href="#/contact">Get in Touch</Button>
                 </Carousel.Caption>
@@ -31,7 +31,7 @@ const HomePageCarousel = () => {
                     alt="Slide Two"
                 />
                 <Carousel.Caption className={classes['carousel-caption']}>
-                    <h1>Car Repair and Servicing</h1>
+                    <h1 className='text-white'>Car Repair and Servicing</h1>
                     <p>Our specialized car repair &amp; maintenance services <br/> are tailor-made to suit the car maintenance requirements <br/>of the customers</p>
                     <Button href="#/contact">Get in Touch</Button>
                 </Carousel.Caption>
