@@ -138,30 +138,33 @@ const CustomerReviewForm = () => {
             <h1 style={{color: "#05386B", fontWeight: "bold"}}>Customer Review</h1>
             <Form onSubmit={submitCustomerReview}>
                 <Container className={`${classes.container}`}>
-                    <Row>
+                    <Row className='d-flex justify-content-center'>
+                        <Col lg={2} className="mt-2 text-center"><h5 style={{color: "#05386B", fontWeight: "bold"}}><a style={{color: "red", fontWeight: "bold"}}>*</a>Name</h5></Col>
                         <Col lg={4} className="mb-4">
                             <Form.Group controlId="customerName">
                                 <Form.Control type="text" placeholder="Your Name" ref={customerNameRef} required={true}/>
                             </Form.Group>
                         </Col>
                     </Row>
-                    <Row>
+                    <Row className='d-flex justify-content-center'>
+                        <Col lg={2} className="mt-2 text-center"><h5 style={{color: "#05386B", fontWeight: "bold"}}>Mobile</h5></Col>
                         <Col lg={4} className="mb-4">
                             <Form.Group controlId="customerPhone">
                                 <Form.Control type="tel" placeholder="Enter phone" ref={customerPhoneRef} pattern="[+0-9]{0,4}[0-9]{3}[0-9]{3}[0-9]{4}" />
                             </Form.Group>
                         </Col>
                     </Row>
-                    <Row>
+                    <Row className='d-flex justify-content-center'>
+                        <Col lg={2} className="mt-2 text-center"><h5 style={{color: "#05386B", fontWeight: "bold"}}>Email</h5></Col>
                         <Col lg={4} className="mb-4">
                             <Form.Group controlId="customerEmail">
                                 <Form.Control type="email" placeholder="Your Email" ref={customerEmailRef} />
                             </Form.Group>
                         </Col>
                     </Row>
-                    <Row>
-                        <Col lg={1} className="mt-2"><h5 style={{color: "#05386B", fontWeight: "bold"}}>RATING</h5></Col>
-                        <Col lg={3} className="mb-4">
+                    <Row className='d-flex justify-content-center'>
+                        <Col lg={2} className="mt-2 text-center"><h5 style={{color: "#05386B", fontWeight: "bold"}}><a style={{color: "red", fontWeight: "bold"}}>*</a>RATING</h5></Col>
+                        <Col lg={4} className="mb-4">
                             <Form.Group controlId="customerServiceRating">
                                 <Form.Select ref={customerServiceRatingRef}>
                                     <option value='5' >Excellent</option>
@@ -173,14 +176,15 @@ const CustomerReviewForm = () => {
                             </Form.Group>
                         </Col>
                     </Row>
-                    <Row>
+                    <Row className='d-flex justify-content-center'>
+                    <Col lg={2} className="mt-2 text-center"><h5 style={{color: "#05386B", fontWeight: "bold"}}>Review</h5></Col>
                         <Col lg={4} className="mb-4">
                             <Form.Group controlId="customerMessage">
                                 <Form.Control as="textarea" rows={3} placeholder="Review comments" ref={customerMessageRef} />
                             </Form.Group>
                         </Col>
                     </Row>
-                    <Row>
+                    <Row className='d-flex justify-content-center'>                    
                         <Col lg={4}>
                             <Button type="submit" style={{background : loader ? "#ccc" : "rgb(66, 133, 244)"}}>Submit</Button>
                         </Col>                
