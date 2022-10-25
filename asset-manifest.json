@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CarServiceSite/static/css/main.0216f833.css",
-    "main.js": "/CarServiceSite/static/js/main.430f5250.js",
+    "main.css": "/CarServiceSite/static/css/main.89713a62.css",
+    "main.js": "/CarServiceSite/static/js/main.024ba468.js",
     "static/js/787.67586cb0.chunk.js": "/CarServiceSite/static/js/787.67586cb0.chunk.js",
     "static/media/20210712_104107.mp4": "/CarServiceSite/static/media/20210712_104107.e6766ca0bdadfb15c1f3.mp4",
     "static/media/20220404_174000.mp4": "/CarServiceSite/static/media/20220404_174000.78a20e53487dec052358.mp4",
@@ -11,9 +11,15 @@
     "static/media/20210712_104024.mp4": "/CarServiceSite/static/media/20210712_104024.32995470adab60b74b1c.mp4",
     "static/media/20220325_105215.mp4": "/CarServiceSite/static/media/20220325_105215.89bca97aa9429964c4f7.mp4",
     "static/media/20220423_182039.mp4": "/CarServiceSite/static/media/20220423_182039.8c1b4f3db3fa5bf37740.mp4",
+    "static/media/2.png": "/CarServiceSite/static/media/2.0dfd62dfbcf300858b5e.png",
+    "static/media/7.png": "/CarServiceSite/static/media/7.d5a2a1c14ce548d2b65b.png",
+    "static/media/4.png": "/CarServiceSite/static/media/4.3a4ca29f571c047dca1e.png",
+    "static/media/5.png": "/CarServiceSite/static/media/5.7bc1dffc71ea900d1444.png",
+    "static/media/3.png": "/CarServiceSite/static/media/3.df17814048d7287c3c09.png",
+    "static/media/1.png": "/CarServiceSite/static/media/1.ae728dda00fdf9aeaa27.png",
+    "static/media/6.png": "/CarServiceSite/static/media/6.2dfecfc547e2f0906f4c.png",
     "static/media/20220414_104215.mp4": "/CarServiceSite/static/media/20220414_104215.430334613865ea965b15.mp4",
     "static/media/20211207_174021.jpg": "/CarServiceSite/static/media/20211207_174021.5c2086e63821b08846c8.jpg",
-    "static/media/20211207_174218.jpg": "/CarServiceSite/static/media/20211207_174218.bce3b025ebea1ade89f9.jpg",
     "static/media/20211213_172244.jpg": "/CarServiceSite/static/media/20211213_172244.a741cf95fa5d67ebd8b5.jpg",
     "static/media/20211207_174054.jpg": "/CarServiceSite/static/media/20211207_174054.90d3de3638fd08342de2.jpg",
     "static/media/20220104_162643.jpg": "/CarServiceSite/static/media/20220104_162643.63ddbf8164fae3c68261.jpg",
@@ -41,10 +47,8 @@
     "static/media/20220427_201444.jpg": "/CarServiceSite/static/media/20220427_201444.8ae2ab60ec850e2cab57.jpg",
     "static/media/20220616_110922.jpg": "/CarServiceSite/static/media/20220616_110922.6920d6e95034949ecfea.jpg",
     "static/media/20220531_134451.jpg": "/CarServiceSite/static/media/20220531_134451.e21eed0c8f7bb60cc7d5.jpg",
-    "static/media/bookbg.png": "/CarServiceSite/static/media/bookbg.3bbfe93a42aa5fc412db.png",
     "static/media/fa-solid-900.svg": "/CarServiceSite/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
     "static/media/1.jpeg": "/CarServiceSite/static/media/1.3c4f9ed1fbff7c598d82.jpeg",
-    "static/media/2022-05-06 1.jpeg": "/CarServiceSite/static/media/2022-05-06 1.8373b6b712c8a3223846.jpeg",
     "static/media/IMG_20170319_150038.jpeg": "/CarServiceSite/static/media/IMG_20170319_150038.231039feb598059d1bbc.jpeg",
     "static/media/fa-brands-400.svg": "/CarServiceSite/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
     "static/media/unnamed.jpeg": "/CarServiceSite/static/media/unnamed.11ade81ba2a84f2dd3e8.jpeg",
@@ -75,12 +79,12 @@
     "index.html": "/CarServiceSite/index.html",
     "static/media/arrow_left.svg": "/CarServiceSite/static/media/arrow_left.db6e2d88c7c35a775ce4.svg",
     "static/media/arrow_right.svg": "/CarServiceSite/static/media/arrow_right.f7c6ac6d310d3b82f0a0.svg",
-    "main.0216f833.css.map": "/CarServiceSite/static/css/main.0216f833.css.map",
-    "main.430f5250.js.map": "/CarServiceSite/static/js/main.430f5250.js.map",
+    "main.89713a62.css.map": "/CarServiceSite/static/css/main.89713a62.css.map",
+    "main.024ba468.js.map": "/CarServiceSite/static/js/main.024ba468.js.map",
     "787.67586cb0.chunk.js.map": "/CarServiceSite/static/js/787.67586cb0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0216f833.css",
-    "static/js/main.430f5250.js"
+    "static/css/main.89713a62.css",
+    "static/js/main.024ba468.js"
   ]
 }
