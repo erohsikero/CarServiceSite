@@ -1,7 +1,7 @@
 import axios from "axios"
 
 export const emailService = (formData) => {
-    const url = 'https://script.google.com/macros/s/AKfycbxMnSBMNI1u3uFR5L8lEBZwFhpJ6wRWZLdGR7mmtScidAcFdRq7LyFmw1T8w4QH6sak/exec'
+    const url = 'https://script.google.com/macros/s/AKfycbzDRGdNg9Ju8nZQNuscyo-T9D9vkM0cyK7tfFfKXhVvIaGE5U7xoiZ1HUCj3-nfAeXW/exec'
     const headers = {
         'Content-Type': 'application/x-www-form-urlencoded'
     } 
